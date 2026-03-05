@@ -1,8 +1,7 @@
 // src/context/ShopContext.jsx
 
 import { createContext, useState, useEffect } from 'react';
-import uuid from 'uuid';
-const { v4: uuidv4 } = uuid;
+id: crypto.randomUUID()
 
 // Context banaya
 export const ShopContext = createContext();
