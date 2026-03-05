@@ -20,7 +20,6 @@ function App() {
                 <div className="app">
                     <Navbar />
                     <main className="main">
-                        <ToastContainer />
                         <Routes>
                             <Route path="/" element={<Home />} />
                             <Route path="/add-product" element={<AddProduct />} />
