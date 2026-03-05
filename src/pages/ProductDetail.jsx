@@ -38,7 +38,7 @@ const ProductDetail = () => {
     // Add to cart
     const handleAddToCart = () => {
         addToCart(product, qty);
-        toast.success(`${qty} × ${product.name} cart mein add ho gaya!`);
+        alert(`${qty} × ${product.name} cart mein add ho gaya!`);
     };
 
     // Buy now
@@ -51,7 +51,6 @@ const ProductDetail = () => {
     const handleDelete = () => {
         if (window.confirm('Kya aap sure ho delete karna hai?')) {
             deleteProduct(id);
-            toast.info('Product delete ho gaya');
             navigate('/');
         }
     };
