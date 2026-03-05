@@ -4,7 +4,6 @@ import { useContext, useState } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { FaArrowLeft, FaShoppingCart, FaMinus, FaPlus, FaTrash, FaBolt } from 'react-icons/fa';
 import { ShopContext } from '../context/ShopContext';
-import { toast } from 'react-toastify';
 
 const ProductDetail = () => {
     // URL se product ID lo
