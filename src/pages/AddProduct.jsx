@@ -75,13 +75,13 @@ const AddProduct = () => {
         // Validation
         if (!form.name || !form.price || !form.description || 
             !form.category || !form.brand || !form.stock || !form.image) {
-            toast.error('Sab fields fill karo!');
+            alert('Sab fields fill karo!');
             return;
         }
 
         // Product add karo
         addProduct(form);
-        toast.success('🎉 Product add ho gaya!');
+        alert('🎉 Product add ho gaya!');
         navigate('/');
     };
 
