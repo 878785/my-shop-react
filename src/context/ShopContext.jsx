@@ -108,7 +108,7 @@ export const ShopProvider = ({ children }) => {
     const addProduct = (productData) => {
         const newProduct = {
             ...productData,
-            id: uuidv4(),
+            id: crypto.randomUUID(),
             price: Number(productData.price),
             stock: Number(productData.stock)
         };
