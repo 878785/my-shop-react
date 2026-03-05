@@ -4,7 +4,7 @@ import { useState, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FaSave, FaTimes, FaImage } from 'react-icons/fa';
 import { ShopContext } from '../context/ShopContext';
-import { toast } from 'react-toastify';
+
 
 const AddProduct = () => {
     // Context se function lo
